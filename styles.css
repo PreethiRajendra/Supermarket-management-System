@@ -1,0 +1,83 @@
+body {
+    
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #3f3c3c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+/* .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+} */
+
+/* You can replace 'YourFontName' with an appropriate confident-looking font */
+.navbar-logo {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: 60px;
+    }
+    .navbar-logo {
+        font-size: 20px;
+    }
+}
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav 
+{
+    height: 100%; display: flex; flex-direction: column; justify-content: space-between;
+}
+.col-md-2 
+{
+    height: 100vh;
+}
+.head
+{
+    position: fixed;
+    display: block;
+}
+.background-image {
+    position:fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7; /* Adjust the opacity value */
+    background-image: url('shopping.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+.col-md-2.bg-secondary {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+

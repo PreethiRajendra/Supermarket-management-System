@@ -1,0 +1,87 @@
+/* Add this to your CSS file or within a <style> tag in your HTML */
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the container */
+.container {
+    padding: 20px;
+    max-width: 100%; /* Add this line to make the container full width */
+}
+
+/* Style for the card */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card header */
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style for the table */
+.table {
+    border: 1px solid #dee2e6;
+    margin: 0;
+    width: 100%; /* Add this line to make the table full width */
+    table-layout: fixed; /* Add this line to ensure even distribution of table columns */
+}
+
+/* Style for table headers */
+.table th {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style for even table rows */
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table cells */
+.table td {
+    padding: 30px;
+    vertical-align: middle;
+}
+
+/* Style for buttons */
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+/* Style for edit button */
+.btn-primary {
+    background-color: #6ca3de;
+    border: none;
+}
+
+/* Style for delete button */
+.btn-danger {
+    background-color: #c86670;
+    border: none;
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Increase padding between cells */
+@media (min-width: 768px) {
+    .table td {
+        padding: 40px;
+    }
+}
