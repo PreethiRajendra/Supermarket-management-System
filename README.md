@@ -1,1 +1,4 @@
-# Supermarket-management-Systemconflicting change in the main branch
+# Supermarket-management-System
+hello world
+
+conflicting change in the feature-branch
